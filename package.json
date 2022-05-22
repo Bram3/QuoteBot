@@ -1,0 +1,30 @@
+{
+  "name": "quote-bot",
+  "version": "1.0.0",
+  "description": "Example bot for DS",
+  "main": "build/Main.js",
+  "author": "Bram",
+  "license": "MIT",
+  "dependencies": {
+    "@discordx/importer": "^1.1.9",
+    "axios": "^0.27.2",
+    "better-sqlite3": "^7.5.3",
+    "discord.js": "^13.7.0",
+    "discordx": "^9.6.0",
+    "dotenv": "^16.0.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.8.0",
+    "tsyringe": "^4.6.0",
+    "typeorm": "^0.3.6",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/Main.js",
+    "dev": "ts-node src/Main.ts"
+  }
+}
